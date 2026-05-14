@@ -1,7 +1,0 @@
-streamlit
-pandas
-plotly
-pymongo[srv]
-dnspython
-pyspark
-google-genai
