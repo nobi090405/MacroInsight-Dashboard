@@ -1,0 +1,60 @@
+/* 1. Fondo principal de la aplicación */
+[data-testid="stAppViewContainer"] {
+    background-color: #0B0E14; 
+}
+
+/* 2. Barra lateral (Sidebar) */
+[data-testid="stSidebar"] {
+    background-color: #161A25; 
+    border-right: 1px solid #2D3342;
+}
+
+/* 3. Estilo de las Tarjetas / Contenedores (st.container) */
+[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    background-color: #131720;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+/* Efecto Hover: Se ilumina sutilmente el borde al pasar el ratón */
+[data-testid="stVerticalBlockBorderWrapper"]:hover {
+    border-color: #ffffff; 
+}
+
+/* 4. Personalización de los Botones */
+.stButton > button {
+    background-color: #1E2330;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #2D3342;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+/* Efecto Hover en los botones (Verde éxito) */
+.stButton > button:hover {
+    background-color: #2E7D32;
+    color: white;
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.4);
+}
+
+/* 5. Números de las Métricas (Dashboard) */
+[data-testid="stMetricValue"] {
+    color: #4CAF50; 
+    font-weight: 800;
+}
+
+/* 6. Cabecera de los Acordeones (Expanders) */
+.streamlit-expanderHeader {
+    background-color: #1A1E29;
+    border-radius: 8px;
+    border: 1px solid #2D3342;
+}
+
+/* 7. Alertas/Mensajes de éxito (st.success) */
+[data-testid="stAlert"] {
+    border-radius: 8px;
+}
